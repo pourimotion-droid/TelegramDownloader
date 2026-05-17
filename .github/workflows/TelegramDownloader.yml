@@ -74,7 +74,7 @@ jobs:
           echo "🔍 Initializing proxy discovery engine..."
           echo "═══════════════════════════════════════════════════════════════"
           
-          curl -s 'https://raw.githubusercontent.com/Ian-Lusule/Proxies/main/proxies/http.txt' 2>/dev/null | \
+          curl -s 'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt' 2>/dev/null | \
             grep -v '^0\.0\.0\.0' | \
             grep -v '^127\.0\.0\.1' | \
             head -100 > proxy_list.txt 2>/dev/null
